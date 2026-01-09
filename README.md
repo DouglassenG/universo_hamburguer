@@ -78,4 +78,14 @@ Demonstração de como o layout se adapta:
      </div>
 </div>
 
+## 📂 Estrutura de Arquivos
+
+A organização do projeto é simples e direta, típica de sites estáticos que consomem frameworks via CDN:
+
+```text
+universo_hamburguer/
+├── images/          # Ativos visuais (Fotos dos lanches, logos)
+├── main.css         # CSS customizado (Ajustes finos sobre o Bootstrap)
+├── index.html       # Arquivo principal (Markup + Classes Bootstrap)
+└── README.md        # Documentação do projeto
 
