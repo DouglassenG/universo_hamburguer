@@ -15,7 +15,7 @@ O projeto resolve o problema de construir um site visualmente complexo (com colu
 
 ## 🖼️ Demonstração Visual
 
-*(Espaço reservado para screenshots. Sugestão: Tire um print da seção do cardápio ou do banner principal)*
+https://universo-hamburguer.vercel.app/
 
 ## 🛠️ Tecnologias Utilizadas
 
