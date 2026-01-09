@@ -15,7 +15,7 @@ O projeto resolve o problema de construir um site visualmente complexo (com colu
 
 ## 🖼️ Demonstração Visual
 
-https://universo-hamburguer.vercel.app/
+*(Espaço reservado para screenshots. Sugestão: Tire um print da seção do cardápio ou do banner principal)*
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -26,57 +26,8 @@ A stack tecnológica prioriza a eficiência e a padronização visual:
     * **Components:** Uso de Navbar, Cards (para os produtos), Modais e Botões estilizados.
     * **Utilities:** Classes utilitárias para espaçamento (margins/paddings) e tipografia.
 * **[HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML):** Estrutura semântica.
-* **[CSS3 Customizado](https://developer.mozilla.org/pt-BR/docs/Web/CSS):** Estilos pontuais (`style.css`) para sobrescrever o padrão do Bootstrap e dar identidade visual única à marca (cores, fontes específicas).
+* **[CSS3 Customizado](https://developer.mozilla.org/pt-BR/docs/Web/CSS):** Estilos pontuais (`main.css` ou `style.css`) para sobrescrever o padrão do Bootstrap e dar identidade visual única à marca (cores, fontes específicas).
 * **Git:** Controle de versão.
-
-## 📦 Instalação e Execução
-
-Por se tratar de um projeto estático baseado em framework, a execução é imediata.
-
-### Pré-requisitos
-* Um navegador web (Chrome, Firefox, Edge).
-
-### Passo a Passo
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/DouglassenG/universo_hamburguer.git](https://github.com/DouglassenG/universo_hamburguer.git)
-    ```
-
-2.  **Acesse o diretório:**
-    ```bash
-    cd universo_hamburguer
-    ```
-
-3.  **Visualização:**
-    * Localize o arquivo `index.html`.
-    * Abra-o no navegador.
-    * *Nota:* Como o Bootstrap geralmente é importado via CDN (link externo), é necessário estar conectado à internet para que os estilos carreguem corretamente.
-
-## 💻 Estrutura e Funcionalidades
-
-O projeto é dividido em seções estratégicas de uma Landing Page de vendas:
-
-1.  **Header/Hero:** Banner principal com Call to Action (CTA) chamativo.
-2.  **Cardápio (Grid):** Exibição dos hambúrgueres usando o sistema de Cards do Bootstrap, organizados em colunas que se adaptam (1 coluna no mobile, 3 no desktop).
-3.  **Sobre:** Seção institucional.
-4.  **Contato/Rodapé:** Informações de localização e redes sociais.
-
-**Exemplo de Código (Grid System):**
-Demonstração de como o layout se adapta:
-```html
-
-**Exemplo de Código (Grid System):**
-Demonstração de como o layout se adapta:
-```html
-<div class="row">
-  <div class="col-12 col-md-4">
-     </div>
-  <div class="col-12 col-md-4">
-     </div>
-  <div class="col-12 col-md-4">
-     </div>
-</div>
 
 ## 📂 Estrutura de Arquivos
 
@@ -88,4 +39,3 @@ universo_hamburguer/
 ├── main.css         # CSS customizado (Ajustes finos sobre o Bootstrap)
 ├── index.html       # Arquivo principal (Markup + Classes Bootstrap)
 └── README.md        # Documentação do projeto
-
